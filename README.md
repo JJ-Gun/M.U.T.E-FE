@@ -14,6 +14,40 @@
 
 ---
 
+## 화면
+
+- home
+<details>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/bccec017-5333-41ab-b627-7b6cb55e6476" />
+  <summary>수정 내역</summary>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/bccec017-5333-41ab-b627-7b6cb55e6476" />
+
+</details>
+
+- createmusic
+<details>
+  - 2026-01-16
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/24a52eae-5e19-4f58-be59-21038fa039d6" />
+  <summary>수정 내역</summary>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/0cfd2e9f-d4a2-484c-942f-b16577aabd1f" />
+
+</details>
+
+- board
+<details>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
+  <summary>수정 내역</summary>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
+
+</details>
+
+---
+
 ## 확인된 오류
 
 ### 2025-11-21
@@ -24,7 +58,13 @@
 ---
 
 ## 수정 내역
+<details>
+  <summary>2026-01-16</summary>
 
+  ### 수정 사항
+  - createmusic/page.module.css 수정
+  - 결과 화면 위치 조정
+</details>
 <details>
   <summary>2025-11-21</summary>
 
