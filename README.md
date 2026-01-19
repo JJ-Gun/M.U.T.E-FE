@@ -26,10 +26,12 @@
 </details>
 
 > createmusic
-- 2026-01-16
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/24a52eae-5e19-4f58-be59-21038fa039d6" />
+- 2026-01-19
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5659f95a-849f-441c-bc31-c9bfac83df83" />
 <details>
   <summary>수정 내역</summary>
+  - 2026-01-16
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/24a52eae-5e19-4f58-be59-21038fa039d6" />
   - 2025-11-21
   <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/0cfd2e9f-d4a2-484c-942f-b16577aabd1f" />
 </details>
@@ -47,6 +49,9 @@
 
 ## 확인된 오류
 
+### 2026-01-19
+- createmusic 결과 url로 확인 필요
+
 ### 2025-11-21
 - 키워드 입력 후 생성 불가
 - 생성 완료 페이지 미정렬
@@ -55,6 +60,41 @@
 ---
 
 ## 수정 내역
+<details>
+  <summary>2026-01-19</summary>
+
+  ### 수정 사항
+  - createmusic/page.tsx 수정
+  - createmusic/page.module.css 수정
+  - 생성 결과 배치 수정
+    - 기본 mp3 재생 플레이어 제거
+    - 재생 시간/전체 시간, 재생/일시정지, 재생 바, 다운로드 분리
+    - 재생 바 슬라이더 기본 색상에서 프로젝트 색상으로 변경
+    - 재생/일시정지, 다운로드 버튼 변경
+  - 아이디/비밀번호 입력부 수정
+    - 비선택 상태 테두리 제거
+    - 커서 위치, 선택 상태 하이라이트 추가
+    - input 길이 비율에 맞게 수정
+  - 등록 버튼 수정
+    - 입력부와 동일한 크기로 변경
+    - 하이라이트 추가
+  - 홈 버튼 수정
+    - 텍스트 링크에서 버튼으로 변경
+    - 하이라이트 추가
+
+  - 재생/일시정지 미반영 현상
+    - audio 이벤트에서 재생 상태 조작하도록 변경
+
+  - 음원 재생 확인 여부
+    - 별도의 파일로 확인된 기능
+      - 음원 제목
+      - 재생 시간
+      - 전체 시간
+      - 재생/일시정지
+      - 특정 위치 재생
+      - 다운로드
+    - 추후 url 데이터로 확인 필요
+</details>
 <details>
   <summary>2026-01-16</summary>
 
