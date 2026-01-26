@@ -15,10 +15,34 @@ interface Post {
 export default function Board() {
   const [posts, setPosts] = useState<Post[]>([]); // 게시글 상태
 
+  const dummyPosts: Post[] = [
+  {
+    id: 1,
+    userId: "user01",
+    title: "첫 번째 게시글",
+    url: "/dummy/audio/sample1.mp3",
+    isVisible: false,
+  },
+  {
+    id: 2,
+    userId: "user02",
+    title: "두 번째 게시글",
+    url: "/dummy/audio/sample2.mp3",
+    isVisible: false,
+  },
+  {
+    id: 3,
+    userId: "user03",
+    title: "세 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+];
+
   // 서버에서 게시글 데이터를 가져오는 함수
   const fetchPosts = async () => {
     try {
-      const response = await fetch("https://temu-back.r-e.kr/posts", {
+      /*const response = await fetch("https://temu-back.r-e.kr/posts", {
         method: "GET",
       });
 
@@ -29,7 +53,8 @@ export default function Board() {
         setPosts(data); // 가져온 게시글 데이터를 상태에 저장
       } else {
         console.error("게시글을 불러오지 못했습니다:", response.statusText);
-      }
+      }*/
+     setPosts(dummyPosts);
     } catch (error) {
       console.error("게시글 가져오는 중 오류 발생:", error);
     }

@@ -47,7 +47,12 @@
 
 ---
 
-## 확인된 오류
+## 확인 사항
+
+### 2026-01-21
+- createmusic에서 등록 시 사용된 ID/PW 사용 기능 불분명
+- board UI 일관성 부족
+  - user ID, title에 따라 변동 가능성 다수
 
 ### 2026-01-19
 - createmusic 결과 url로 확인 필요
@@ -60,6 +65,20 @@
 ---
 
 ## 수정 내역
+<details>
+  <summary>2026-01-21</summary>
+
+### 수정 사항
+- createmusic/page.tsx 수정
+  - 다운로드 버튼 위치 제목과 같은 줄로 이동
+- createmusic/page.module.css 수정
+  - 다운로드 버튼과 제목 첫 줄과 같은 줄에 있도록 수정
+    - 제목이 너무 길어 2줄 이상이 될 경우를 대비하여 제목 줄 수가 늘어나도 다운로드 버튼 유지
+- board/page.tsx 수정
+  - 현상황 파악 위해 더미데이터 추가 및 api 임시 해제
+- board/page.module.css 수정
+  - 상단부 공간 및 top 공간 확보
+</details>
 <details>
   <summary>2026-01-19</summary>
 
@@ -109,5 +128,4 @@
 - home/page.module.css 수정
 - chatBox 위치 조정
 - chatBox 크기 조정으로 불필요한 스크롤 방지
-
 </details>

@@ -52,7 +52,16 @@ export default function CreateMusic() {
       <div className={styles.lowcontainer}>
         {/* 생성된 노래 */}
         <div className={styles.audioBox}>
-          <span className={styles.title}>{fileName}</span>
+          <div className={styles.titleRow}>
+            <span className={styles.title}>{fileName}</span>
+            <a
+              href={songUrl}
+              download
+              className={styles.download}
+            >
+              ⬇
+            </a>
+          </div>
           <audio
             ref={audioRef}
             src={songUrl}
@@ -95,13 +104,6 @@ export default function CreateMusic() {
                 )`
               }}
             />
-            <a
-              href={songUrl}
-              download
-              className={styles.download}
-            >
-              ⬇
-            </a>
           </div>
         </div>
 
