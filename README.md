@@ -26,10 +26,12 @@
 </details>
 
 > createmusic
-- 2026-01-19
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5659f95a-849f-441c-bc31-c9bfac83df83" />
+-2026-01-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/4b2df8e3-8bb6-4f6b-a587-823a20f49714" />
 <details>
   <summary>수정 내역</summary>
+  - 2026-01-19
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5659f95a-849f-441c-bc31-c9bfac83df83" />
   - 2026-01-16
   <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/24a52eae-5e19-4f58-be59-21038fa039d6" />
   - 2025-11-21
@@ -37,10 +39,12 @@
 </details>
 
 > board
-- 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
+- 2026-01-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/9f0b6dde-1e11-4fe3-9152-9c35fea0a7f0" />
 <details>
   <summary>수정 내역</summary>
+  - 2025-11-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
   - 2025-11-21
   <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
 </details>
