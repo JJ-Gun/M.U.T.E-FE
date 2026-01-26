@@ -26,7 +26,7 @@
 </details>
 
 > createmusic
--2026-01-21
+- 2026-01-21
   <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/4b2df8e3-8bb6-4f6b-a587-823a20f49714" />
 <details>
   <summary>수정 내역</summary>
@@ -39,12 +39,12 @@
 </details>
 
 > board
-- 2026-01-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/9f0b6dde-1e11-4fe3-9152-9c35fea0a7f0" />
+- 2026-01-26
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/77755f33-5292-4e76-9a7a-528ef0bcf3c2" />
 <details>
   <summary>수정 내역</summary>
-  - 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
+  - 2026-01-21
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/9f0b6dde-1e11-4fe3-9152-9c35fea0a7f0" />
   - 2025-11-21
   <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
 </details>
@@ -52,6 +52,12 @@
 ---
 
 ## 확인 사항
+
+### 2026-01-26
+- 데이터 추가에 따른 대응 필요
+  - 페이지네이션 예정
+- 검색 기능 추가 예정
+- 제목, 작성자 기준 필터 예정
 
 ### 2026-01-21
 - createmusic에서 등록 시 사용된 ID/PW 사용 기능 불분명
@@ -69,6 +75,27 @@
 ---
 
 ## 수정 내역
+<details>
+  <summary>2026-01-26</summary>
+
+### 수정 사항
+- (common)/(component)/(audioPlayer) 추가
+  - 음악 재생부 audioPlayer.tsx로 분리하여 재사용
+  - 해당 부분 audioPlayer.module.css로 이관
+- createmusic/page.tsx 수정
+  - audioPlayer 컴포넌트 분리에 따른 해당 부분 수정 및 삭제
+- createmusic/page.module.css 수정
+  - auidoPlayer 컴포넌트 분리에 따른 해당 부분 삭제
+- board/page.txt 수정
+  - 기존 화면 구조 변경
+    - 작성자, 제목 위치 변경
+  - auido -> audioPlayer 컴포넌트로 변경
+- board/page.module.css 수정
+  - 화면 구조 변경
+    - songTitle align-items 속성 삭제
+    - button -> download 로 변경
+    - audioPlayer 조절 위해 playerWrapper 추가
+</details>
 <details>
   <summary>2026-01-21</summary>
 

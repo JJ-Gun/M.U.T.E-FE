@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Top from "../(common)/(component)/(topbar)/top";
 import styles from "./board.module.css";
+import AudioPlayer from "../(common)/(component)/(audioPlayer)/audioPlayer";
 
 interface Post {
   id: number;
@@ -34,6 +35,83 @@ export default function Board() {
     id: 3,
     userId: "user03",
     title: "세 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 4,
+    userId: "user03",
+    title: "네 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 5,
+    userId: "user03",
+    title: "다섯 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 6,
+    userId: "user03",
+    title: "여섯 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 7,
+    userId: "user03",
+    title: "일곱 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 8,
+    userId: "user03",
+    title: "여덟 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 9,
+    userId: "user03",
+    title: "아홉 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 10,
+    userId: "user03",
+    title: "열 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 11,
+    userId: "user03",
+    title: "열한 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 12,
+    userId: "user03",
+    title: "열두 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 13,
+    userId: "user03",
+    title: "열세 번째 게시글",
+    url: "/dummy/audio/sample3.mp3",
+    isVisible: false,
+  },
+  {
+    id: 14,
+    userId: "user03",
+    title: "열네 번째 게시글",
     url: "/dummy/audio/sample3.mp3",
     isVisible: false,
   },
@@ -82,15 +160,19 @@ export default function Board() {
               onClick={() => toggleVisibility(post.id)}
               className={styles.songTitle}
             >
-              <span>{post.userId}</span> <span>{post.title}</span>
+              <span>{post.title}</span> <span>{post.userId}</span>
             </div>
             {post.isVisible && (
               <div className={styles.songDetails}>
-                <audio controls>
-                  <source src={post.url} type="audio/mp3" />
-                </audio>
-                <a href={post.url} download={`${post.title}.mp3`}>
-                  <button type="button">Download</button>
+                <div className={styles.playerWrapper}>
+                  <AudioPlayer src={post.url} />
+                </div>
+                <a
+                  href={post.url}
+                  download={`${post.title}.mp3`}
+                  className={styles.download}
+                >
+                  Download
                 </a>
               </div>
             )}

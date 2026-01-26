@@ -103,13 +103,13 @@ display: block;
 }
 body {
 width: 100vw;
-height: 100vh;
 background-color: white;
 color: black;
 display: flex;
 flex-direction: row;
 line-height: 1;
 font-family: 'goorm-sans';
+padding-bottom: 0.01px;
 }
 ol,
 ul {
