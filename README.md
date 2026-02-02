@@ -58,6 +58,7 @@
   - 페이지네이션 예정
 - 검색 기능 추가 예정
 - 제목, 작성자 기준 필터 예정
+- 하단부 부자연스러운 동작
 
 ### 2026-01-21
 - createmusic에서 등록 시 사용된 ID/PW 사용 기능 불분명
@@ -75,6 +76,15 @@
 ---
 
 ## 수정 내역
+<details>
+  <summary>2026-01-28</summary>
+
+  ### 수정 사항
+  - css 수정
+    - global min-height 지정
+    - board 데이터 오픈 시 하단부 공백 반영
+    - home 위치 재조정
+</details>
 <details>
   <summary>2026-01-26</summary>
 
