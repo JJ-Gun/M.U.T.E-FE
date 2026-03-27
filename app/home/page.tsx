@@ -49,7 +49,7 @@ export default function Home() {
       };
 
       try {
-        const response = await fetch("http://localhost:3000/api/songs", {
+        const response = await fetch("https://temu-back.r-e.kr/api/songs", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
