@@ -18,35 +18,35 @@
 
 > home
 - 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/bccec017-5333-41ab-b627-7b6cb55e6476" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/e128c3ec-1be5-4de9-bc38-3cae1e2be3d1" />
 <details>
   <summary>수정 내역</summary>
   - 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/bccec017-5333-41ab-b627-7b6cb55e6476" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/e128c3ec-1be5-4de9-bc38-3cae1e2be3d1" />
 </details>
 
 > createmusic
 - 2026-01-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/4b2df8e3-8bb6-4f6b-a587-823a20f49714" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/dc80f2b1-e907-4b21-b69f-27489c28a52c" />
 <details>
   <summary>수정 내역</summary>
   - 2026-01-19
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5659f95a-849f-441c-bc31-c9bfac83df83" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/2e4d5e49-a099-4b5b-87c3-d356bb7795c8" />
   - 2026-01-16
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/24a52eae-5e19-4f58-be59-21038fa039d6" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/07e54361-c11b-4a92-a2f7-55e24819368f" />
   - 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/0cfd2e9f-d4a2-484c-942f-b16577aabd1f" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/b227a3bc-2880-4ff8-861b-c4556aaa7335" />
 </details>
 
 > board
 - 2026-01-26
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/77755f33-5292-4e76-9a7a-528ef0bcf3c2" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/c320e57c-7c17-4e83-9f28-17e397ee0027" />
 <details>
   <summary>수정 내역</summary>
   - 2026-01-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/9f0b6dde-1e11-4fe3-9152-9c35fea0a7f0" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/a4dd935a-46d8-4f52-84c4-7fec264f531a" />
   - 2025-11-21
-  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/5b714b3b-0cba-48a1-b6bb-2b36531478d3" />
+  <img width="838" height="849" alt="Image" src="https://github.com/user-attachments/assets/caa95289-4612-48b0-9408-106a731b6e8e" />
 </details>
 
 ---
