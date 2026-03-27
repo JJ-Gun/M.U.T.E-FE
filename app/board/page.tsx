@@ -120,19 +120,16 @@ export default function Board() {
   // 서버에서 게시글 데이터를 가져오는 함수
   const fetchPosts = async () => {
     try {
-      /*const response = await fetch("https://temu-back.r-e.kr/posts", {
+     const response = await fetch("https://temu-back.r-e.kr/posts", {
         method: "GET",
       });
 
-      console.log(response);
       if (response.ok) {
         const data = await response.json();
-        console.log(data);
-        setPosts(data); // 가져온 게시글 데이터를 상태에 저장
+        setPosts(data.map((post: any) => ({ ...post, isVisible: false })));
       } else {
         console.error("게시글을 불러오지 못했습니다:", response.statusText);
-      }*/
-     setPosts(dummyPosts);
+      }
     } catch (error) {
       console.error("게시글 가져오는 중 오류 발생:", error);
     }

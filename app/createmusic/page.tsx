@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import styles from "./page.module.css";
 import Top from "../(common)/(component)/(topbar)/top"
 import Link from "next/link";
-import AudioPlayer from "../(common)/(component)/(audioPlayer)/AudioPlayer";
+import AudioPlayer from "../(common)/(component)/(audioPlayer)/audioPlayer";
 
 export default function CreateMusic() {
   // 서버에서 받은 노래 URL (예시)
